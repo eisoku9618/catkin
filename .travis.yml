@@ -10,3 +10,7 @@ script:
   - nosetests test/unit_tests test/local_tests
 notifications:
   email: false
+addons:
+  apt:
+    packages:
+    - cmake
